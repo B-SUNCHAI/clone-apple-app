@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-item {
+    @apply mx-5 text-center py-3 text-xs text-[#333336] font-sans;
+  }
+}
+
+@layer base {
+  body {
+    margin: 0;
+    background-color: #f5f5f7;
+  }
+}
+
+/* หัวข้อสีรุ้ง */
+.gradient_background {
+  background-image: linear-gradient(to right, #0090f7, #ba62fc, #f2416b);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mid_navbar {
+  @apply content-center pl-2 pt-1 pb-1 pr-9;
+}
+
+.mid_text {
+  @apply text-[#333336];
+}
