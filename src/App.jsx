@@ -49,14 +49,14 @@ function App() {
     <>
       <div>
         <HeadNavbar />
-
         <HeadContent />
         <NavbarContent />
 
         {/* Iphone */}
         <div className="h-12 grid mb-3">
           <div className="ml-36">
-            <span className="gradient_background text-3xl mr-2">ทุกรุ่น</span>
+            <span className=" text-3xl mr-2">ทุกรุ่น</span>
+            {/* gradient_background */}
             <span className="text-3xl text-[#6e6e73]">
               เลือกแบบที่ใช่ได้เลย
             </span>
@@ -75,9 +75,7 @@ function App() {
 
         {/* Suggest */}
         <div className="h-14 mx-36 text-3xl">
-          <span className="gradient_background mr-1.5">
-            คำแนะนำในการช้อปปิ้ง
-          </span>
+          <span className=" mr-1.5">คำแนะนำในการช้อปปิ้ง</span>
           <span className="text-[#6e6e73]">
             ถ้าเลือกไม่ได้ ก็เริ่มตรงนี้เลย
           </span>
@@ -91,7 +89,7 @@ function App() {
         {/* Saveprice */}
         <div className="flex m-auto w-auto mt-14">
           <div className="h-14 mx-36 text-3xl">
-            <span className="gradient_background mr-1.5">วิธีในการประหยัด</span>
+            <span className=" mr-1.5">วิธีในการประหยัด</span>
             <span className="text-[#6e6e73]">ที่ Apple</span>
           </div>
         </div>
@@ -116,7 +114,7 @@ function App() {
         {/* Festival */}
         <div className="flex m-auto w-auto mt-14">
           <div className="h-14 mx-36 text-3xl">
-            <span className="gradient_background mr-1.5">อุปกรณ์เสริม</span>
+            <span className=" mr-1.5">อุปกรณ์เสริม</span>
             <span className="text-[#6e6e73]">
               สิ่งที่ขาดไม่ได้ที่จับคู่กับอุปกรณ์โปรดของคุณได้อย่างลงตัว
             </span>
@@ -136,9 +134,7 @@ function App() {
         {/* Setting */}
         <div className="flex m-auto w-auto mt-14">
           <div className="h-14 mx-36 text-3xl">
-            <span className="gradient_background mr-1.5">
-              การตั้งค่าแลกความช่วยเหลือ
-            </span>
+            <span className=" mr-1.5">การตั้งค่าแลกความช่วยเหลือ</span>
             <span className="text-[#6e6e73]">
               Specialist ของเราพร้อมช่วยเหลือคุณ
             </span>
@@ -155,9 +151,7 @@ function App() {
         {/* Experience */}
         <div className="flex m-auto w-auto mt-14">
           <div className="h-20 mx-36 text-3xl">
-            <span className="gradient_background mr-1.5">
-              ประสบการณ์การใช้งาน iPhone
-            </span>
+            <span className=" mr-1.5">ประสบการณ์การใช้งาน iPhone</span>
             <span className="text-[#6e6e73]">
               ออกแบบมาเพื่อเชื่อมทุกอย่างที่เป็น Apple ให้เป็น
               <br />
@@ -177,7 +171,7 @@ function App() {
         {/* Festival */}
         <div className="flex m-auto w-auto mt-14">
           <div className="h-14 mx-36 text-3xl">
-            <span className="gradient_background mr-1.5">ร้านพิเศษของเรา</span>
+            <span className=" mr-1.5">ร้านพิเศษของเรา</span>
             <span className="text-[#6e6e73]">ดูราคาที่ออกแบบมาเป็นพิเศษ</span>
           </div>
         </div>

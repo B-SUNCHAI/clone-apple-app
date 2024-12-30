@@ -13,9 +13,9 @@ function NavbarContent() {
         <span className="mid_navbar">
           <span className="mid_text">วิธีประหยัด</span>
         </span>
-        <span className="mid_navbar">
+        {/* <span className="mid_navbar">
           <span className="mid_text">ที่ Apple เท่านั้น</span>
-        </span>
+        </span> */}
         <span className="mid_navbar">
           <span className="mid_text">อุปกรณ์เสริม</span>
         </span>

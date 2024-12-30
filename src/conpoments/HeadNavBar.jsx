@@ -9,7 +9,7 @@ import { faApple } from "@fortawesome/free-brands-svg-icons";
 
 function HeadNavbar() {
   return (
-    <div className="grid grid-cols-[23%_53%_24%] mb-20">
+    <div className="grid grid-cols-[23%_53%_24%] ">
       <div></div>
       <div className=" flex flex-row ">
         <div className="nav-item">
@@ -25,7 +25,8 @@ function HeadNavbar() {
         <div className="nav-item">ความบันเทิง</div>
         <div className="nav-item">อุปกรณ์เสริม</div>
         <div className="nav-item ">
-          <div className="gradient_background">บริการช่วยเหลือ</div>
+          <div className="">บริการช่วยเหลือ</div>
+          {/* gradient_background */}
         </div>
         <span className="nav-item">
           <FontAwesomeIcon icon={faMagnifyingGlass} />

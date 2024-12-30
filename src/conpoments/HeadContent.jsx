@@ -11,7 +11,8 @@ function HeadContent() {
     <div className="px-36">
       <div className="h-56 grid grid-cols-[39%_42%_19%] ">
         <div className="content-center text-5xl py-3 font-bold mr-auto">
-          <div className="gradient_background">ซื้อ iPhone</div>
+          <div className="">ซื้อ iPhone</div>
+          {/* gradient_background */}
         </div>
         <div></div>
         <div className="pt-20">
