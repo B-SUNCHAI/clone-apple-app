@@ -237,6 +237,9 @@ function Footer() {
                 ใกล้คุณ หรือโทร 1800-01-9209
               </span>
             </div>
+            <div className="">
+              <hr />
+            </div>
             <div className="pt-3 flex justify-between">
               <div className="">
                 <div className="">
