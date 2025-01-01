@@ -1,0 +1,7 @@
+.show-hover:hover {
+  .btn-hover {
+    opacity: 100;
+    transform: translateY(0px);
+    transition-duration: 500ms;
+  }
+}

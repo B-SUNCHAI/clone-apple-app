@@ -9,8 +9,8 @@ import color4_5 from "../../image/color4-5.png";
 import color4_6 from "../../image/color4-5.png";
 function Iphone14plus() {
   return (
-    <div className="mr-5 ">
-      <div className="grid grid-row-[20%_50%_10%_20%] rounded-3xl bg-white w-96">
+    <div className="mr-5 m-1 mb-4">
+      <div className="show-hover grid grid-row-[20%_50%_10%_20%] rounded-3xl shadow-md bg-white w-96 hover:shadow-lg hover:scale-[1.02] duration-700">
         <div className="h-40 content-center p-7 ">
           <div className="text-3xl pt-5">
             iPhon 14 และ <br></br>
@@ -20,6 +20,11 @@ function Iphone14plus() {
         <div className="h-56">
           <img src={iphone14plus} className="w-3/4 ml-12" />
         </div>
+
+        <div className="btn-hover bg-black rounded-3xl text-lg text-[#fff] w-28 h-10 text-center absolute pt-1 mt-[19.7rem] ml-[8.5rem] translate-y-5 opacity-0 hover:bg-[#0071e3] ">
+          มาดูกันเลย
+        </div>
+
         <div className="h-9 flex flex-row justify-center pt-6 mb-6">
           <span className="h-3 w-3 mr-2">
             <img src={color4_1} />

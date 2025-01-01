@@ -4,13 +4,6 @@ import HeadNavbar from "./conpoments/headNavbar";
 import HeadContent from "./conpoments/HeadContent";
 import NavbarContent from "./conpoments/NavbarContent";
 
-import Iphone16Pro from "./sections/Iphone/Iphone16Pro";
-import Iphone16plus from "./sections/Iphone/Iphone16plus";
-import Iphone15plus from "./sections/Iphone/Iphone15plus";
-import Iphone14plus from "./sections/Iphone/Iphone14plus";
-import Iphonese from "./sections/Iphone/Iphonese";
-import IphoneOther from "./sections/Iphone/IphoneOt";
-
 import Twoiphone from "./sections/Suggest/Twoiphone";
 import Changeiphone from "./sections/Suggest/Changeiphone";
 import Specialist from "./sections/Suggest/Specialist";
@@ -43,6 +36,7 @@ import Appleone from "./sections/Experience/Appleone";
 import Business from "./sections/Special/Business";
 
 import Footer from "./conpoments/Footer";
+import Iphone_slick from "./sections/Iphone/Iphone_slick";
 
 function App() {
   return (
@@ -62,15 +56,9 @@ function App() {
             </span>
           </div>
         </div>
-        <div className="flex flex-row mx-36 ">
-          <Iphone16Pro />
-          <Iphone16plus />
-          <Iphone15plus />
-          <Iphone14plus />
-          <Iphonese />
-          <IphoneOther />
-        </div>
-        <div className="h-4"></div>
+
+        <Iphone_slick />
+
         <div className="h-14"></div>
 
         {/* Suggest */}
@@ -97,19 +85,6 @@ function App() {
           <Interest />
           <Trade />
         </div>
-
-        {/* AppleOnly
-        <div className="flex m-auto w-auto mt-14">
-          <div className="h-14 mx-36 text-3xl">
-            <span className="gradient_background mr-1.5">เฉพาะที่ Apple</span>
-            <span className="text-[#6e6e73]">
-              พร้อมช่วยเหลือคุณทุกขั้นตอนในช่วงเทศกาลนี้
-            </span>
-          </div>
-        </div>
-        <div className="flex flex-row mx-36 mt-3 mb-4">
-          <Delivery />
-        </div> */}
 
         {/* Festival */}
         <div className="flex m-auto w-auto mt-14">
