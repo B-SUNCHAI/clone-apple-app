@@ -1,11 +1,10 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBagShopping,
-  faMagnifyingGlass,
-  faUser,
-} from "@fortawesome/free-solid-svg-icons";
+
 import { faApple } from "@fortawesome/free-brands-svg-icons";
+
+import peple from "../image/peple.jpg";
+
 function HeadContent() {
   return (
     <div className="px-36">
@@ -16,15 +15,16 @@ function HeadContent() {
         </div>
         <div></div>
         <div className="pt-20">
-          <div className="grid grid-cols-[15%_85%] pb-5">
-            <div className="">
-              <FontAwesomeIcon className="text-3xl mt-2 ml-2.5" icon={faUser} />
-            </div>
+          <div className="grid grid-cols-[15%_85%] pb-3">
+            <span className="h-10 w-10 mt-1 ml-0.5 ">
+              <img src={peple} />
+            </span>
+
             <div className="grid grid-row-2">
               <div className="text-sm mr-auto">
                 ต้องการความช่วยเหลือในการช้อปปิ้งใช่มั้ย
               </div>
-              <a className="text-sm text-blue-500 mr-auto">
+              <a className="text-sm text-blue-500 mr-auto underline cursor-pointer ">
                 ถาม Specialist เรื่อง iPhone ได้เลย
               </a>
             </div>
@@ -35,7 +35,7 @@ function HeadContent() {
             </div>
             <div className="grid grid-row-2">
               <div className="text-sm mr-auto">แวะไปที่ Apple Store</div>
-              <a className="text-sm text-blue-500 mr-auto">
+              <a className="text-sm text-blue-500 mr-auto cursor-pointer hover:underline ">
                 ค้นหาร้านที่อยู่ใกล้คุณ
               </a>
             </div>

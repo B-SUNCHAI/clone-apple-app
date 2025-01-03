@@ -4,8 +4,8 @@ import MX6X3 from "../../image/MX6X3.jpg";
 
 function Magsafe() {
   return (
-    <div className="mr-5 ">
-      <div className="grid grid-row-[20%_50%_10%_20%] rounded-3xl bg-white w-[20rem] ">
+    <div className="mr-5 my-1 mb-4">
+      <div className="grid grid-row-[20%_50%_10%_20%] rounded-3xl shadow-md bg-white w-[20rem] hover:shadow-lg hover:scale-[1.02] duration-700">
         <div className="h-[18.5rem] mt-20 mb-2">
           <img src={MX6X3} className="w-3/4 ml-10 " />
         </div>

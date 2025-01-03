@@ -4,21 +4,21 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import Iphone16Pro from "./Iphone16Pro";
-import Iphone16plus from "./Iphone16plus";
-import Iphone15plus from "./Iphone15plus";
-import Iphone14plus from "./Iphone14plus";
-import Iphonese from "./Iphonese";
-import IphoneOther from "./IphoneOt";
+import Aboutiphone from "./Aboutiphone";
+import Cloudiphone from "./Cloudiphone";
+import Applecare from "./Applecare";
+import Setiphone from "./Setiphone";
+import Today from "./Today";
 
-function Iphone_slick() {
+function Setting_slick() {
   var settings = {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
+    variableWidth: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -48,38 +48,35 @@ function Iphone_slick() {
   };
   return (
     <div>
-      <div className="h-12 grid mb-3">
-        <div className="ml-36">
-          <span className=" text-3xl mr-2">ทุกรุ่น</span>
-          {/* gradient_background */}
-          <span className="text-3xl text-[#6e6e73]">เลือกแบบที่ใช่ได้เลย</span>
+      <div className="flex m-auto w-auto mt-14">
+        <div className="h-14 mx-36 text-3xl">
+          <span className=" mr-1.5">การตั้งค่าแลกความช่วยเหลือ</span>
+          <span className="text-[#6e6e73]">
+            Specialist ของเราพร้อมช่วยเหลือคุณ
+          </span>
         </div>
       </div>
       <div className="slider-container mx-36 cursor-pointer">
         <Slider {...settings}>
           <div className="">
-            <Iphone16Pro />
+            <Aboutiphone />
           </div>
-          <div className="">
-            <Iphone16plus />
+          <div>
+            <Cloudiphone />
           </div>
-          <div className="">
-            <Iphone15plus />
+          <div>
+            <Applecare />
           </div>
-          <div className="">
-            <Iphone14plus />
+          <div>
+            <Setiphone />
           </div>
-          <div className="">
-            <Iphonese />
-          </div>
-          <div className="">
-            <IphoneOther />
+          <div>
+            <Today />
           </div>
         </Slider>
       </div>
-      <div className="h-14"></div>
     </div>
   );
 }
 
-export default Iphone_slick;
+export default Setting_slick;

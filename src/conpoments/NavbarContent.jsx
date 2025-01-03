@@ -5,7 +5,17 @@ function NavbarContent() {
     <div className="h-16 grid mb-10">
       <div className="ml-36 content-center">
         <span className="mid_navbar">
-          <span className="mid_text">ทุกรุ่น</span>
+          <span
+            className="mid_text"
+            onClick={() =>
+              window.scrollTo({
+                top: aboutIphoneRef.current.offsetTop,
+                behavior: "smooth",
+              })
+            }
+          >
+            ทุกรุ่น
+          </span>
         </span>
         <span className="mid_navbar">
           <span className="mid_text">คำแนะนำในการช้อปปิ้ง</span>

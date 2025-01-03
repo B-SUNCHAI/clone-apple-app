@@ -39,7 +39,7 @@ function Airpods_max() {
         </div>
 
         <div className="mx-7 pt-1">
-          <div className="text-[17px] font-semibold whitespace-nowrap mb-7">
+          <div className="text-[16px] font-semibold whitespace-nowrap mb-7">
             Airpods Max - สีม่วง
           </div>
         </div>

@@ -1,0 +1,15 @@
+.backdrop {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.t_color {
+  color: #303030;
+}
+.t_color:hover {
+  color: black;
+}
+
+.h_color {
+  color: #6e6e73;
+}

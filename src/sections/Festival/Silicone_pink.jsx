@@ -36,7 +36,7 @@ function Silicone_pink() {
           </div>
         </div>
         <div className="mx-7 pt-1">
-          <div className="text-[17px] font-semibold whitespace-nowrap">
+          <div className="text-[16px] font-semibold whitespace-nowrap">
             เคสซิลิโคนสำหรับ iPhone 16
             <br />
             Plus พร้อม MagSafe - สีม่วงฟิวเซีย

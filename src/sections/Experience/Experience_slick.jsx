@@ -4,21 +4,22 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import Iphone16Pro from "./Iphone16Pro";
-import Iphone16plus from "./Iphone16plus";
-import Iphone15plus from "./Iphone15plus";
-import Iphone14plus from "./Iphone14plus";
-import Iphonese from "./Iphonese";
-import IphoneOther from "./IphoneOt";
+import Intelligence from "./Intelligence";
+import Ios18 from "./Ios_18";
+import Airpods from "./Airpods";
+import AppleTV from "./AppleTV";
+import Airtag from "./Airtag";
+import Appleone from "./Appleone";
 
-function Iphone_slick() {
+function Experience_slick() {
   var settings = {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
+    variableWidth: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -48,38 +49,40 @@ function Iphone_slick() {
   };
   return (
     <div>
-      <div className="h-12 grid mb-3">
-        <div className="ml-36">
-          <span className=" text-3xl mr-2">ทุกรุ่น</span>
-          {/* gradient_background */}
-          <span className="text-3xl text-[#6e6e73]">เลือกแบบที่ใช่ได้เลย</span>
+      <div className="flex m-auto w-auto mt-14">
+        <div className="h-20 mx-36 text-3xl">
+          <span className=" mr-1.5">ประสบการณ์การใช้งาน iPhone</span>
+          <span className="text-[#6e6e73]">
+            ออกแบบมาเพื่อเชื่อมทุกอย่างที่เป็น Apple ให้เป็น
+            <br />
+            หนึ่งเดียว
+          </span>
         </div>
       </div>
       <div className="slider-container mx-36 cursor-pointer">
         <Slider {...settings}>
           <div className="">
-            <Iphone16Pro />
+            <Intelligence />
           </div>
-          <div className="">
-            <Iphone16plus />
+          <div>
+            <Ios18 />
           </div>
-          <div className="">
-            <Iphone15plus />
+          <div>
+            <Airpods />
           </div>
-          <div className="">
-            <Iphone14plus />
+          <div>
+            <AppleTV />
           </div>
-          <div className="">
-            <Iphonese />
+          <div>
+            <Airtag />
           </div>
-          <div className="">
-            <IphoneOther />
+          <div>
+            <Appleone />
           </div>
         </Slider>
       </div>
-      <div className="h-14"></div>
     </div>
   );
 }
 
-export default Iphone_slick;
+export default Experience_slick;
