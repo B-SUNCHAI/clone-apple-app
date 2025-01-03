@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./iphone.css";
+import "./iphone_s.css";
 
 import iphone16plus from "../../image/iphone16plus.jpg";
 import color2_1 from "../../image/color2-1.png";
