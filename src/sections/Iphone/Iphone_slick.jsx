@@ -4,12 +4,12 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import Iphone16Pro from "./Iphone16Pro";
-import Iphone16plus from "./Iphone16plus";
-import Iphone15plus from "./Iphone15plus";
-import Iphone14plus from "./Iphone14plus";
-import Iphonese from "./Iphonese";
-import IphoneOther from "./IphoneOt";
+import Iphone16_Pro from "./Iphone16_Pro";
+import Iphone16_plus from "./Iphone16plus";
+import Iphone15_plus from "./Iphone15plus";
+import Iphone14_plus from "./Iphone14plus";
+import Iphone_se from "./Iphonese";
+import Iphone_Other from "./IphoneOt";
 
 function Iphone_slick() {
   var settings = {
@@ -58,22 +58,22 @@ function Iphone_slick() {
       <div className="slider-container mx-36 cursor-pointer">
         <Slider {...settings}>
           <div className="">
-            <Iphone16Pro />
+            <Iphone16_Pro />
           </div>
           <div className="">
-            <Iphone16plus />
+            <Iphone16_plus />
           </div>
           <div className="">
-            <Iphone15plus />
+            <Iphone15_plus />
           </div>
           <div className="">
-            <Iphone14plus />
+            <Iphone14_plus />
           </div>
           <div className="">
-            <Iphonese />
+            <Iphone_se />
           </div>
           <div className="">
-            <IphoneOther />
+            <Iphone_Other />
           </div>
         </Slider>
       </div>
