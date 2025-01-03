@@ -8,7 +8,7 @@ import color1_3 from "../../image/color1-3.png";
 import color1_4 from "../../image/color1-4.png";
 import iphone16pro from "../../image/iphone16pro.jpg";
 
-function Iphone16Pro() {
+function Iphone16_Pro() {
   return (
     <div className="mr-5 m-1 mb-4">
       <div className="show-hover grid grid-row-[20%_50%_10%_20%] rounded-3xl shadow-md bg-white w-96 hover:shadow-lg hover:scale-[1.02] duration-700">
@@ -52,4 +52,4 @@ function Iphone16Pro() {
   );
 }
 
-export default Iphone16Pro;
+export default Iphone16_Pro;
