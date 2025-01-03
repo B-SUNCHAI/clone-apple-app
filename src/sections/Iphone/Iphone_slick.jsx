@@ -5,11 +5,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Iphone16_Pro from "./Iphone16_Pro";
-import Iphone16_plus from "./Iphone16plus";
-import Iphone15_plus from "./Iphone15plus";
-import Iphone14_plus from "./Iphone14plus";
-import Iphone_se from "./Iphonese";
-import Iphone_Other from "./IphoneOt";
+import Iphone16_plus from "./Iphone16_plus";
+import Iphone15_plus from "./Iphone15_plus";
+import Iphone14_plus from "./Iphone14_plus";
+import Iphone_se from "./Iphone_se";
+import Iphone_Other from "./Iphone_Ot";
 
 function Iphone_slick() {
   var settings = {
