@@ -1,7 +1,7 @@
 import "./App.css";
 import { useEffect, useRef } from "react";
 
-import HeadNavbar from "./conpoments/HeadNavbar";
+import HeadNavbar from "./conpoments/headNavbar";
 import HeadContent from "./conpoments/HeadContent";
 import NavbarContent from "./conpoments/NavbarContent";
 

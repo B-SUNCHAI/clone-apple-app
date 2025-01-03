@@ -17,7 +17,7 @@ import Fly_Entertainment from "./FlyoutLine/Fly_Entertainment";
 import Fly_Accessories from "./FlyoutLine/Fly_Accessories";
 import Fly_Service from "./FlyoutLine/Fly_Service";
 
-function HeadNavbar() {
+function headNavbar() {
   return (
     <div className="grid grid-cols-[23%_53%_24%] ">
       <div></div>
@@ -46,4 +46,4 @@ function HeadNavbar() {
   );
 }
 
-export default HeadNavbar;
+export default headNavbar;
