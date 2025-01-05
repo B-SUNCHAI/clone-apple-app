@@ -93,7 +93,7 @@ const AirPodsContent = () => {
             </div>
           </div>
         </div>
-        <div className=" w-[1920px] h-[550px] backdrop-blur-2xl"></div>
+        <div className=" w-[1920px] h-[550px] bg-[#ffffffd9]"></div>
       </div>
     </div>
   );

@@ -22,7 +22,7 @@ const Fly_Store = ({ children, href, FlyoutContent }) => {
     <div
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
-      onScroll={() => setOpen(true)}
+      onScroll={() => setOpen(false)}
       className=" w-fit h-9"
     >
       <a href={href} className="relative">
@@ -100,7 +100,7 @@ const storeContent = () => {
             </div>
           </div>
         </div>
-        <div className=" w-[1920px] h-[500px] backdrop-blur-2xl"></div>
+        <div className=" w-[1920px] h-[500px]  bg-[#ffffffd9]"></div>
       </div>
     </div>
   );

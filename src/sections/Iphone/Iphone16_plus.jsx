@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import "./Modify_iphone.css";
 
@@ -8,7 +8,20 @@ import color2_2 from "../../image/color2-2.png";
 import color2_3 from "../../image/color2-3.png";
 import color2_4 from "../../image/color2-4.png";
 import color2_5 from "../../image/color2-5.png";
+
+import Popup_Iphone16_pro from "./Onclick_open_popup/Popup_Iphone16_pro";
+
 function Iphone16plus() {
+  let [isModalOpen, setIsModalOpen] = useState(false);
+
+  function openModal() {
+    setIsModalOpen(true);
+  }
+
+  function closeModal() {
+    setIsModalOpen(false);
+  }
+
   return (
     <div className="mr-5 m-1 mb-4">
       <div className="show-hover grid grid-row-[20%_50%_10%_20%] rounded-3xl relative shadow-md bg-white w-96 hover:shadow-lg hover:scale-[1.02] duration-700">
@@ -51,6 +64,8 @@ function Iphone16plus() {
           </div>
         </div>
       </div>
+      {/* Popup */}
+      {/* {isModalOpen ? <Popup_Iphone16_pro closeModal={closeModal} /> : ""} */}
     </div>
   );
 }

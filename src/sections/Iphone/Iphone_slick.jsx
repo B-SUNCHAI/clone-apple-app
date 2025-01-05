@@ -16,9 +16,11 @@ function Iphone_slick() {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
+    variableWidth: true,
+
     responsive: [
       {
         breakpoint: 1024,

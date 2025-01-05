@@ -120,7 +120,7 @@ const WatchContent = () => {
             </div>
           </div>
         </div>
-        <div className=" w-[1920px] h-[500px] backdrop-blur-2xl"></div>
+        <div className=" w-[1920px] h-[500px] bg-[#ffffffd9]"></div>
       </div>
     </div>
   );
